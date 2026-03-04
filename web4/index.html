@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reklam Öykü Panosu</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .resim {
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .resim:hover {
+            transform: translateY(-5px);
+        }
+
+        .resim img {
+            width: 100%;
+            height: 250px;
+            /* Görsel yüksekliğini sabitledim */
+            object-fit: cover;
+            display: block;
+        }
+
+        .resim-metin {
+            padding: 15px;
+            font-size: 14px;
+            color: #444;
+            line-height: 1.5;
+            text-align: center;
+            border-top: 1px solid #eee;
+        }
+
+        .h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #1f2937;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div style="text-align: center; grid-column: 1 / -1;">
+            <h1 class="h1">Reklam Öykü Panosu</h1>
+        </div>
+        <div class="resim">
+            <img src="o1e.png" alt="Storyboard 1">
+            <div class="resim-metin">Yazılar sesli okunacak ve sırayla animasyonlu olarak belirecek.</div>
+        </div>
+        <div class="resim">
+            <img src="o2e.png" alt="Storyboard 2">
+            <div class="resim-metin">Yazılar sesli okunacak ve sırayla animasyonlu olarak belirecek.</div>
+        </div>
+        <div class="resim">
+            <img src="o3e.png" alt="Storyboard 3">
+            <div class="resim-metin">Arka plandaki sistem görseli üzerinde yazılar sesli okunacak ve sırayla animasyonlu
+                olarak belirecek.</div>
+        </div>
+        <div class="resim">
+            <img src="o4e.png" alt="Storyboard 4">
+            <div class="resim-metin">Yazılar sesli okunacak ve sırayla animasyonlu olarak belirecek.</div>
+        </div>
+        <div class="resim">
+            <img src="o5e.png" alt="Storyboard 5">
+            <div class="resim-metin">Yazılar sesli okunacak ve sırayla animasyonlu olarak belirecek.</div>
+        </div>
+        <div class="resim">
+            <img src="o6e.png" alt="Storyboard 6">
+            <div class="resim-metin">Yazılar sesli okunacak ve sırayla animasyonlu olarak belirecek. Reklam bitecek.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
